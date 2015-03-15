@@ -1,0 +1,421 @@
+Country,Variable,Category,all_Mean,all_SE,reading_Mean,reading_SE,math_Mean,math_SE,science_Mean,science_SE
+Australia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Australia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Australia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Australia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Australia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Australia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Austria,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Austria,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Austria,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Austria,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Austria,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Austria,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Belgium,PA02Q02,1,2.00,0.24,472,10.51,477,10.42,459,11.33
+Belgium,PA02Q02,2,14.46,0.66,501,4.66,507,5.00,495,4.64
+Belgium,PA02Q02,3,43.06,0.69,535,3.01,550,3.31,535,3.13
+Belgium,PA02Q02,4,29.54,0.72,547,3.34,563,3.38,551,3.48
+Belgium,PA02Q02,5,8.54,0.40,533,6.51,548,7.76,541,6.76
+Belgium,PA02Q02,m,2.40,0.23,499,11.06,508,11.22,507,11.18
+Canada,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Canada,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Canada,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Canada,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Canada,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Canada,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chile,PA02Q02,1,15.41,0.52,424,3.91,402,3.22,424,3.69
+Chile,PA02Q02,2,25.27,0.62,440,3.59,420,3.67,442,3.42
+Chile,PA02Q02,3,25.48,0.52,449,3.73,432,3.90,454,3.75
+Chile,PA02Q02,4,19.39,0.56,457,3.54,439,4.02,462,3.65
+Chile,PA02Q02,5,11.42,0.46,454,4.75,434,5.04,457,4.68
+Chile,PA02Q02,m,3.04,0.27,415,6.00,400,6.85,425,7.33
+Czech Republic,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Czech Republic,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Czech Republic,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Czech Republic,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Czech Republic,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Czech Republic,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Denmark,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Denmark,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Denmark,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Denmark,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Denmark,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Denmark,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Estonia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Estonia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Estonia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Estonia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Estonia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Estonia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Finland,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Finland,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Finland,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Finland,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Finland,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Finland,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+France,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+France,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+France,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+France,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+France,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+France,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Germany,PA02Q02,1,2.57,0.32,485,10.94,477,11.86,490,12.23
+Germany,PA02Q02,2,14.72,0.61,503,4.93,501,5.90,514,5.13
+Germany,PA02Q02,3,36.77,1.09,531,3.71,537,3.97,546,4.31
+Germany,PA02Q02,4,32.39,0.80,537,3.77,543,4.09,554,3.92
+Germany,PA02Q02,5,10.84,0.55,531,5.66,535,6.33,547,6.64
+Germany,PA02Q02,m,2.71,0.30,492,14.27,492,12.38,503,12.47
+Greece,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Greece,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Greece,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Greece,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Greece,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Greece,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Hungary,PA02Q02,1,8.58,0.47,452,6.59,439,5.59,455,5.74
+Hungary,PA02Q02,2,33.51,0.75,484,3.04,472,3.16,489,2.69
+Hungary,PA02Q02,3,32.48,0.75,507,4.10,495,4.45,512,4.12
+Hungary,PA02Q02,4,13.55,0.69,505,7.04,496,7.75,513,7.02
+Hungary,PA02Q02,5,6.92,0.40,489,5.96,475,6.34,495,5.61
+Hungary,PA02Q02,m,4.96,0.37,452,8.10,442,7.43,463,8.08
+Iceland,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Iceland,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Iceland,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Iceland,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Iceland,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Iceland,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Ireland,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Ireland,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Ireland,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Ireland,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Ireland,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Ireland,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Italy,PA02Q02,1,2.50,0.15,431,6.70,432,6.83,439,7.18
+Italy,PA02Q02,2,14.62,0.31,467,3.01,462,3.05,468,2.94
+Italy,PA02Q02,3,33.96,0.48,495,2.59,491,2.59,498,2.33
+Italy,PA02Q02,4,32.31,0.48,510,2.10,503,2.39,513,2.13
+Italy,PA02Q02,5,13.22,0.30,515,2.71,506,3.14,518,2.77
+Italy,PA02Q02,m,3.39,0.15,460,4.79,459,5.02,464,5.31
+Japan,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Japan,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Japan,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Japan,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Japan,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Japan,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Korea,PA02Q02,1,0.59,0.12,a  ,a  ,a  ,a  ,a  ,a  
+Korea,PA02Q02,2,11.27,0.47,515,5.77,527,6.30,517,4.92
+Korea,PA02Q02,3,49.95,0.80,543,4.07,563,4.72,543,3.82
+Korea,PA02Q02,4,23.25,0.62,543,4.19,562,5.02,545,4.20
+Korea,PA02Q02,5,5.41,0.34,534,6.38,548,7.20,537,5.97
+Korea,PA02Q02,m,9.53,0.48,515,6.14,529,6.57,523,5.26
+Luxembourg,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Luxembourg,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Luxembourg,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Luxembourg,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Luxembourg,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Luxembourg,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Mexico,PA02Q02,1,18.16,0.38,411,2.09,401,1.88,404,1.72
+Mexico,PA02Q02,2,29.59,0.42,425,1.84,414,1.62,416,1.63
+Mexico,PA02Q02,3,24.14,0.36,435,1.98,423,1.77,423,1.60
+Mexico,PA02Q02,4,13.32,0.30,433,2.67,422,2.45,422,2.37
+Mexico,PA02Q02,5,7.34,0.22,421,2.73,411,2.41,413,2.42
+Mexico,PA02Q02,m,7.45,0.24,405,3.18,396,2.54,402,2.54
+Netherlands,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Netherlands,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Netherlands,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Netherlands,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Netherlands,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Netherlands,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+New Zealand,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+New Zealand,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+New Zealand,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+New Zealand,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+New Zealand,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+New Zealand,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Norway,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Norway,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Norway,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Norway,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Norway,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Norway,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Poland,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Poland,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Poland,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Poland,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Poland,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Poland,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Portugal,PA02Q02,1,6.64,0.53,452,7.01,445,6.45,456,6.21
+Portugal,PA02Q02,2,22.63,0.91,484,5.00,477,4.92,483,5.08
+Portugal,PA02Q02,3,33.06,0.82,503,4.05,504,4.58,503,4.37
+Portugal,PA02Q02,4,24.87,0.86,512,3.68,514,3.87,512,3.82
+Portugal,PA02Q02,5,9.89,0.59,502,6.65,505,7.06,503,6.94
+Portugal,PA02Q02,m,2.91,0.30,449,10.97,444,10.34,450,10.90
+Slovak Republic,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovak Republic,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovak Republic,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovak Republic,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovak Republic,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovak Republic,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovenia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovenia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovenia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovenia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovenia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovenia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Spain,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Spain,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Spain,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Spain,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Spain,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Spain,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Sweden,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Sweden,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Sweden,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Sweden,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Sweden,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Sweden,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Switzerland,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Switzerland,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Switzerland,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Switzerland,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Switzerland,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Switzerland,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Turkey,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Turkey,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Turkey,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Turkey,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Turkey,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Turkey,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Kingdom ,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Kingdom ,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Kingdom ,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Kingdom ,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Kingdom ,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Kingdom ,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United States of America,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United States of America,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United States of America,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United States of America,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United States of America,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United States of America,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+OECD Total,PA02Q02,1,9.36,0.18,419,1.85,408,1.77,414,1.60
+OECD Total,PA02Q02,2,21.25,0.21,452,1.40,444,1.46,449,1.40
+OECD Total,PA02Q02,3,33.09,0.28,496,1.54,498,1.88,496,1.61
+OECD Total,PA02Q02,4,21.62,0.22,501,1.43,501,1.67,504,1.53
+OECD Total,PA02Q02,5,8.67,0.11,483,2.13,478,2.31,485,2.30
+OECD Total,PA02Q02,m,6.02,0.13,450,2.75,449,2.68,453,2.44
+OECD Average,PA02Q02,1,7.06,0.13,447,2.46,439,2.44,447,2.55
+OECD Average,PA02Q02,2,20.76,0.22,477,1.47,473,1.58,478,1.41
+OECD Average,PA02Q02,3,34.86,0.25,500,1.23,499,1.34,502,1.26
+OECD Average,PA02Q02,4,23.58,0.23,506,1.43,505,1.56,509,1.44
+OECD Average,PA02Q02,5,9.20,0.15,497,1.91,495,2.10,502,1.94
+OECD Average,PA02Q02,m,4.55,0.11,461,3.11,459,2.97,467,3.01
+Albania,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Albania,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Albania,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Albania,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Albania,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Albania,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Argentina,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Argentina,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Argentina,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Argentina,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Argentina,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Argentina,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Brazil,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Brazil,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Brazil,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Brazil,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Brazil,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Brazil,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Bulgaria,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Bulgaria,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Bulgaria,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Bulgaria,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Bulgaria,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Bulgaria,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+China (Shanghai),PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+China (Shanghai),PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+China (Shanghai),PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+China (Shanghai),PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+China (Shanghai),PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+China (Shanghai),PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chinese Taipei,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chinese Taipei,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chinese Taipei,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chinese Taipei,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chinese Taipei,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chinese Taipei,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Colombia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Colombia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Colombia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Colombia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Colombia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Colombia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Connecticut (USA),PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Connecticut (USA),PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Connecticut (USA),PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Connecticut (USA),PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Connecticut (USA),PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Connecticut (USA),PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Costa Rica,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Costa Rica,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Costa Rica,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Costa Rica,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Costa Rica,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Costa Rica,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Croatia,PA02Q02,1,5.45,0.33,452,7.26,439,6.28,464,5.87
+Croatia,PA02Q02,2,27.92,0.79,477,4.06,464,3.71,485,3.65
+Croatia,PA02Q02,3,35.08,0.75,492,3.31,479,3.58,499,3.39
+Croatia,PA02Q02,4,20.30,0.62,500,4.59,484,5.27,503,4.40
+Croatia,PA02Q02,5,9.44,0.53,501,6.34,488,7.59,507,6.73
+Croatia,PA02Q02,m,1.80,0.21,451,10.39,440,11.76,460,12.60
+Florida (USA),PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Florida (USA),PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Florida (USA),PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Florida (USA),PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Florida (USA),PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Florida (USA),PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Hong Kong-China,PA02Q02,1,2.06,0.22,515,10.18,519,10.60,524,10.22
+Hong Kong-China,PA02Q02,2,15.67,0.70,526,4.26,537,4.38,538,4.07
+Hong Kong-China,PA02Q02,3,33.68,0.75,545,3.93,564,4.17,557,3.79
+Hong Kong-China,PA02Q02,4,30.14,0.99,558,2.96,577,3.17,565,2.85
+Hong Kong-China,PA02Q02,5,10.42,0.47,559,4.55,577,5.21,568,4.12
+Hong Kong-China,PA02Q02,m,8.03,0.46,530,6.08,542,7.58,542,5.87
+Indonesia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Indonesia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Indonesia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Indonesia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Indonesia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Indonesia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Jordan,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Jordan,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Jordan,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Jordan,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Jordan,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Jordan,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Kazakhstan,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Kazakhstan,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Kazakhstan,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Kazakhstan,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Kazakhstan,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Kazakhstan,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Liechtenstein,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Liechtenstein,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Liechtenstein,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Liechtenstein,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Liechtenstein,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Liechtenstein,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Lithuania,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Lithuania,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Lithuania,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Lithuania,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Lithuania,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Lithuania,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Macao-China,PA02Q02,1,2.62,0.22,494,7.83,520,8.37,508,7.17
+Macao-China,PA02Q02,2,17.65,0.62,502,2.44,528,2.74,511,2.52
+Macao-China,PA02Q02,3,36.62,0.64,511,1.85,543,1.92,524,1.79
+Macao-China,PA02Q02,4,27.02,0.60,516,2.26,547,2.39,528,2.15
+Macao-China,PA02Q02,5,9.41,0.35,519,3.03,551,3.35,530,3.22
+Macao-China,PA02Q02,m,6.68,0.35,487,4.74,513,4.87,499,4.12
+Malaysia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Malaysia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Malaysia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Malaysia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Malaysia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Malaysia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Massachusetts (USA),PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Massachusetts (USA),PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Massachusetts (USA),PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Massachusetts (USA),PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Massachusetts (USA),PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Massachusetts (USA),PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Peru,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Peru,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Peru,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Peru,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Peru,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Peru,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Qatar,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Qatar,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Qatar,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Qatar,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Qatar,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Qatar,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Romania,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Romania,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Romania,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Romania,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Romania,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Romania,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Singapore,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Singapore,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Singapore,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Singapore,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Singapore,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Singapore,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Thailand,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Thailand,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Thailand,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Thailand,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Thailand,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Thailand,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Tunisia,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Tunisia,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Tunisia,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Tunisia,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Tunisia,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Tunisia,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Arab Emirates,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Arab Emirates,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Arab Emirates,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Arab Emirates,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Arab Emirates,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Arab Emirates,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Uruguay,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Uruguay,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Uruguay,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Uruguay,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Uruguay,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Uruguay,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Vietnam,PA02Q02,1,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Vietnam,PA02Q02,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Vietnam,PA02Q02,3,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Vietnam,PA02Q02,4,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Vietnam,PA02Q02,5,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Vietnam,PA02Q02,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  

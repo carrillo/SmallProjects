@@ -1,0 +1,223 @@
+OECD PISA 2012 Data File - Interactive Selection
+,
+Variable: ,SC01Q01,Public or private
+Full question:,Is your school a public or a private school?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+Category: ,1,Public
+,2,Private
+
+,
+ , , , , ,Reading,Reading,Mathematics,Mathematics,Science,Science
+Country,Variable,Category,%,%SE,Mean,SE,Mean,SE,Mean,SE
+Australia,SC01Q01,1,58.72,0.50,495,2.36,489,2.32,506,2.45
+Australia,SC01Q01,2,41.28,0.50,535,2.12,526,2.33,544,2.42
+Australia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Austria,SC01Q01,1,91.12,2.32,486,3.35,502,3.15,502,3.23
+Austria,SC01Q01,2,8.57,2.31,534,12.12,547,13.76,551,11.48
+Austria,SC01Q01,m,0.32,0.27,a  ,a  ,a  ,a  ,a  ,a  
+Belgium,SC01Q01,1,31.59,2.10,471,6.37,474,5.59,468,5.53
+Belgium,SC01Q01,2,68.41,2.10,526,3.19,533,3.09,522,3.02
+Belgium,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Canada,SC01Q01,1,91.86,0.72,519,2.22,514,2.02,523,2.18
+Canada,SC01Q01,2,8.14,0.72,567,6.49,570,5.98,557,5.20
+Canada,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chile,SC01Q01,1,35.47,1.46,410,4.96,390,4.99,412,4.48
+Chile,SC01Q01,2,62.45,1.72,459,3.29,442,3.71,463,3.54
+Chile,SC01Q01,m,2.08,1.08,432,15.47,399,10.61,445,14.28
+Czech Republic,SC01Q01,1,91.35,1.90,491,3.87,498,3.76,507,3.74
+Czech Republic,SC01Q01,2,8.65,1.90,507,14.19,505,15.30,521,13.59
+Czech Republic,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Denmark,SC01Q01,1,75.63,1.79,489,3.11,494,2.53,491,2.87
+Denmark,SC01Q01,2,24.37,1.79,519,5.72,520,5.57,521,6.60
+Denmark,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Estonia,SC01Q01,1,96.11,1.06,516,2.06,520,2.00,541,1.97
+Estonia,SC01Q01,2,3.89,1.06,532,20.10,527,19.30,548,22.86
+Estonia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Finland,SC01Q01,1,96.82,0.68,523,2.48,518,2.05,545,2.29
+Finland,SC01Q01,2,3.18,0.68,552,7.84,539,7.20,559,7.81
+Finland,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+France,SC01Q01,1,79.97,1.37,503,3.38,490,3.19,495,3.19
+France,SC01Q01,2,19.54,1.24,527,8.40,520,5.92,519,6.54
+France,SC01Q01,m,0.49,0.49,a  ,a  ,a  ,a  ,a  ,a  
+Germany,SC01Q01,1,93.58,1.61,506,3.57,511,3.53,521,3.79
+Germany,SC01Q01,2,6.42,1.61,542,14.56,551,15.91,559,14.77
+Germany,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Greece,SC01Q01,1,93.59,1.08,474,3.47,450,2.67,464,3.28
+Greece,SC01Q01,2,6.13,1.04,530,9.31,506,11.29,514,9.42
+Greece,SC01Q01,m,0.29,0.29,a  ,a  ,a  ,a  ,a  ,a  
+Hungary,SC01Q01,1,83.52,2.94,485,3.84,475,3.44,493,3.37
+Hungary,SC01Q01,2,16.48,2.94,508,10.48,490,13.70,506,11.31
+Hungary,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Iceland,SC01Q01,1,99.46,0.05,483,1.79,493,1.70,478,2.10
+Iceland,SC01Q01,2,0.54,0.05,a  ,a  ,a  ,a  ,a  ,a  
+Iceland,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Ireland,SC01Q01,1,41.85,0.41,510,4.51,492,3.92,511,4.19
+Ireland,SC01Q01,2,58.15,0.41,533,2.84,508,2.63,530,2.87
+Ireland,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,SC01Q01,1,100.00,0.00,485,5.03,466,4.69,469,4.95
+Israel,SC01Q01,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Israel,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Italy,SC01Q01,1,94.58,0.75,492,2.28,487,2.35,495,2.11
+Italy,SC01Q01,2,5.42,0.75,487,8.31,484,6.81,498,7.36
+Italy,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Japan,SC01Q01,1,70.14,1.16,537,3.81,535,3.34,548,3.55
+Japan,SC01Q01,2,29.86,1.16,541,9.29,540,9.62,544,9.43
+Japan,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Korea,SC01Q01,1,52.54,4.09,529,6.19,546,7.10,532,5.64
+Korea,SC01Q01,2,47.46,4.09,544,5.65,563,6.35,545,5.11
+Korea,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Luxembourg,SC01Q01,1,84.65,0.07,487,1.68,492,1.25,493,1.44
+Luxembourg,SC01Q01,2,15.35,0.07,490,2.70,479,2.41,483,2.30
+Luxembourg,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Mexico,SC01Q01,1,87.98,0.85,418,1.66,408,1.46,410,1.50
+Mexico,SC01Q01,2,12.02,0.85,463,5.29,449,5.07,449,4.12
+Mexico,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Netherlands,SC01Q01,1,32.44,4.24,508,9.81,516,10.00,519,9.19
+Netherlands,SC01Q01,2,67.56,4.24,509,5.26,521,5.38,519,5.38
+Netherlands,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+New Zealand,SC01Q01,1,93.76,1.53,509,2.87,496,2.47,512,2.58
+New Zealand,SC01Q01,2,6.24,1.53,597,6.04,584,6.12,595,6.81
+New Zealand,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Norway,SC01Q01,1,98.28,0.98,504,3.20,489,2.75,494,3.19
+Norway,SC01Q01,2,1.72,0.98,561,25.48,546,15.80,549,13.72
+Norway,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Poland,SC01Q01,1,97.07,0.40,517,3.11,516,3.62,524,3.12
+Poland,SC01Q01,2,2.93,0.40,568,17.00,571,13.02,573,15.22
+Poland,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Portugal,SC01Q01,1,89.91,1.98,482,3.75,481,3.83,484,3.82
+Portugal,SC01Q01,2,10.09,1.98,540,7.94,543,8.35,539,9.51
+Portugal,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovak Republic,SC01Q01,1,90.95,2.39,458,4.97,478,4.14,468,4.38
+Slovak Republic,SC01Q01,2,9.05,2.39,513,19.77,520,19.05,508,16.98
+Slovak Republic,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Slovenia,SC01Q01,1,97.57,0.13,481,1.25,501,1.30,514,1.36
+Slovenia,SC01Q01,2,2.43,0.13,571,6.50,589,6.93,601,6.68
+Slovenia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Spain,SC01Q01,1,66.96,0.87,476,2.53,471,2.50,485,2.52
+Spain,SC01Q01,2,32.66,0.80,512,2.86,510,2.55,519,2.41
+Spain,SC01Q01,m,0.38,0.38,a  ,a  ,a  ,a  ,a  ,a  
+Sweden,SC01Q01,1,86.04,0.73,480,3.27,476,2.40,482,3.26
+Sweden,SC01Q01,2,13.96,0.73,505,9.19,491,7.87,501,8.34
+Sweden,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Switzerland,SC01Q01,1,93.70,1.32,509,2.85,532,3.31,515,3.01
+Switzerland,SC01Q01,2,6.30,1.32,504,11.23,519,14.31,514,8.39
+Switzerland,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Turkey,SC01Q01,1,98.41,0.85,475,4.16,447,4.86,463,3.93
+Turkey,SC01Q01,2,1.30,0.83,553,26.49,505,11.85,512,5.29
+Turkey,SC01Q01,m,0.29,0.17,a  ,a  ,a  ,a  ,a  ,a  
+United Kingdom ,SC01Q01,1,54.84,3.06,492,4.09,485,3.63,506,4.13
+United Kingdom ,SC01Q01,2,45.16,3.06,512,7.67,508,6.87,529,7.03
+United Kingdom ,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United States of America,SC01Q01,1,93.01,0.94,497,4.07,482,3.96,498,4.17
+United States of America,SC01Q01,2,6.99,0.94,519,13.28,486,10.69,508,13.31
+United States of America,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+OECD Total,SC01Q01,1,82.37,0.45,490,1.38,481,1.44,492,1.47
+OECD Total,SC01Q01,2,17.54,0.45,519,2.70,514,2.63,520,2.64
+OECD Total,SC01Q01,m,0.10,0.03,460,24.73,443,26.87,464,18.91
+OECD Average,SC01Q01,1,80.69,0.29,491,0.67,489,0.65,496,0.64
+OECD Average,SC01Q01,2,19.20,0.30,527,1.98,522,1.74,528,1.66
+OECD Average,SC01Q01,m,0.11,0.22,432,2.58,399,1.77,445,2.38
+Non-OECD Countries
+Albania,SC01Q01,1,88.39,2.31,393,3.28,393,2.15,397,2.63
+Albania,SC01Q01,2,7.97,1.99,392,15.06,403,6.42,402,12.02
+Albania,SC01Q01,m,3.64,1.48,419,13.82,398,7.50,396,6.39
+Argentina,SC01Q01,1,66.40,2.07,370,4.25,368,4.06,382,4.35
+Argentina,SC01Q01,2,33.60,2.07,448,6.25,429,5.52,453,6.30
+Argentina,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Brazil,SC01Q01,1,82.22,0.97,396,2.27,376,2.03,390,2.23
+Brazil,SC01Q01,2,17.78,0.97,477,4.92,461,6.49,471,5.27
+Brazil,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Bulgaria,SC01Q01,1,98.16,1.07,435,6.09,438,4.07,446,4.87
+Bulgaria,SC01Q01,2,1.20,0.86,566,41.95,546,48.25,554,49.40
+Bulgaria,SC01Q01,m,0.64,0.64,389,7.99,381,6.07,369,8.32
+China (Shanghai),SC01Q01,1,90.70,1.78,567,2.77,609,3.37,578,3.10
+China (Shanghai),SC01Q01,2,9.30,1.78,599,9.28,644,9.30,600,8.50
+China (Shanghai),SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Chinese Taipei,SC01Q01,1,64.83,0.81,538,3.28,581,3.72,539,2.68
+Chinese Taipei,SC01Q01,2,35.17,0.81,496,6.04,520,6.13,494,4.26
+Chinese Taipei,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Colombia,SC01Q01,1,84.49,1.29,394,3.53,369,2.75,392,2.98
+Colombia,SC01Q01,2,15.51,1.29,453,10.44,420,10.05,434,10.91
+Colombia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Costa Rica,SC01Q01,1,84.91,1.35,430,3.77,396,3.35,419,3.25
+Costa Rica,SC01Q01,2,15.09,1.35,501,8.54,468,7.25,489,7.22
+Costa Rica,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Croatia,SC01Q01,1,98.24,1.11,484,3.37,471,3.62,491,3.17
+Croatia,SC01Q01,2,1.76,1.11,518,31.98,481,16.76,491,18.21
+Croatia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Hong Kong-China,SC01Q01,1,6.74,0.20,571,9.08,597,9.54,582,7.70
+Hong Kong-China,SC01Q01,2,93.26,0.20,543,2.91,559,3.38,553,2.75
+Hong Kong-China,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Indonesia,SC01Q01,1,58.15,2.57,399,5.52,377,4.96,385,4.85
+Indonesia,SC01Q01,2,41.85,2.57,392,6.24,372,7.07,377,6.04
+Indonesia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Jordan,SC01Q01,1,83.34,1.54,390,3.98,376,3.08,400,3.28
+Jordan,SC01Q01,2,16.66,1.54,446,9.86,435,10.62,454,9.64
+Jordan,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Kazakhstan,SC01Q01,1,97.24,1.05,392,2.77,432,3.05,425,3.02
+Kazakhstan,SC01Q01,2,2.76,1.05,405,9.18,434,12.37,431,13.37
+Kazakhstan,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,SC01Q01,1,93.15,2.00,488,2.55,490,2.95,501,2.85
+Latvia,SC01Q01,2,2.29,1.43,a  ,a  ,a  ,a  ,a  ,a  
+Latvia,SC01Q01,m,4.57,1.61,503,16.25,500,12.53,513,12.51
+Liechtenstein,SC01Q01,1,93.63,0.43,519,4.31,541,3.91,528,3.61
+Liechtenstein,SC01Q01,2,6.37,0.43,a  ,a  ,a  ,a  ,a  ,a  
+Liechtenstein,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Lithuania,SC01Q01,1,98.57,0.73,476,2.54,478,2.66,495,2.63
+Lithuania,SC01Q01,2,1.43,0.73,535,17.24,552,18.09,554,17.37
+Lithuania,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Macao-China,SC01Q01,1,4.19,0.02,460,4.70,480,5.07,483,4.21
+Macao-China,SC01Q01,2,95.81,0.02,511,0.90,541,0.97,522,0.85
+Macao-China,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Malaysia,SC01Q01,1,95.93,1.01,397,3.21,418,3.17,418,2.95
+Malaysia,SC01Q01,2,4.07,1.01,417,34.40,486,29.43,447,31.96
+Malaysia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,SC01Q01,1,99.62,0.01,422,1.20,410,1.06,410,1.07
+Montenegro,SC01Q01,2,0.38,0.01,a  ,a  ,a  ,a  ,a  ,a  
+Montenegro,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),SC01Q01,1,100.00,0.00,482,5.98,484,5.47,480,5.35
+Perm (Russian Federation),SC01Q01,2,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Perm (Russian Federation),SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Peru,SC01Q01,1,76.06,1.89,366,3.83,350,3.17,358,3.17
+Peru,SC01Q01,2,23.37,1.84,439,10.28,424,8.92,419,7.21
+Peru,SC01Q01,m,0.58,0.58,494,7.07,477,6.10,479,4.80
+Qatar,SC01Q01,1,61.94,0.10,350,0.95,335,1.04,341,0.93
+Qatar,SC01Q01,2,38.06,0.10,449,1.43,443,1.24,452,1.39
+Qatar,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Romania,SC01Q01,1,99.36,0.64,437,3.85,444,3.70,438,3.21
+Romania,SC01Q01,2,0.64,0.64,519,7.36,514,3.06,482,4.22
+Romania,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,SC01Q01,1,99.36,0.64,474,2.96,482,3.01,486,2.87
+Russian Federation,SC01Q01,2,0.64,0.64,a  ,a  ,a  ,a  ,a  ,a  
+Russian Federation,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,SC01Q01,1,99.56,0.35,446,3.85,448,3.89,444,3.85
+Serbia,SC01Q01,2,0.44,0.35,a  ,a  ,a  ,a  ,a  ,a  
+Serbia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Singapore,SC01Q01,1,97.61,0.74,542,1.16,574,1.24,552,1.27
+Singapore,SC01Q01,2,2.39,0.74,557,27.42,575,19.93,561,24.56
+Singapore,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Thailand,SC01Q01,1,83.46,0.60,447,3.27,433,3.81,450,3.25
+Thailand,SC01Q01,2,16.54,0.60,413,8.26,397,8.13,415,6.86
+Thailand,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Tunisia,SC01Q01,1,98.97,0.56,405,4.50,389,3.88,399,3.46
+Tunisia,SC01Q01,2,1.03,0.56,291,16.15,305,19.21,325,12.19
+Tunisia,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+United Arab Emirates,SC01Q01,1,44.12,0.84,413,2.79,399,2.63,419,2.91
+United Arab Emirates,SC01Q01,2,55.88,0.84,465,3.70,462,3.56,472,4.26
+United Arab Emirates,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Uruguay,SC01Q01,1,83.29,1.25,394,3.22,393,2.62,399,2.81
+Uruguay,SC01Q01,2,16.71,1.25,497,6.82,492,6.61,501,6.91
+Uruguay,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+Vietnam,SC01Q01,1,91.77,1.28,510,4.70,513,5.15,530,4.58
+Vietnam,SC01Q01,2,8.23,1.28,491,6.10,495,9.56,512,9.80
+Vietnam,SC01Q01,m,a  ,a  ,a  ,a  ,a  ,a  ,a  ,a  
+
+,
+a - The category does not apply in the country concerned. Data therefore missing,
+c - There are too few observations to provide reliable estimates,
+m - Missing or invalid response category (this category is excluded from computations of group percentages in the international report),
+OECD Average - (country average) - mean data for all OECD countries - each country contributes equally to the average
+OECD Total - (OECD as single entity) - each country contributes in proportion to the number of 15-year-olds enrolled in its schools
+,
+� OECD. All rights reserved.
+,
+Data generated from http://pisa2012.acer.edu.au
