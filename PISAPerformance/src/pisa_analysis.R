@@ -5,7 +5,7 @@
 
 library( "ggplot2" ); require("GGally")
 
-setwd("~/Projects/Meetups/PISA/")
+setwd("~/workspace/SmallProjects/PISAPerformance/data/")
 
 add_OECD_member_feature <- function(df) {
   index_first_non_OECD <- which(df$Country == "Albania")[1]
