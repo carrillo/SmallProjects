@@ -33,7 +33,6 @@ teacher_morale <- read.table("teacher_morale_clean.CSV",sep=",",head=T,na.string
 teacher_morale$Category <- as.factor(teacher_morale$Category)
 teacher_morale <- add_OECD_member_feature(teacher_morale)
 
-
 ###########################
 # Q1: Are the target values correlated? 
 ###########################
@@ -42,19 +41,24 @@ plot_pairs <- function(df, columnNames, colour) {
           columns=which(names(df) %in% columnNames ), 
           colour=colour, 
           lower=list(continuous='points'), 
+          #upper=list(params=c(size = 3)),
           upper=list(continuous='blank'), 
           axisLabels="none", 
           params=c(size=0.5)
-  )    
+  )
 }
 
 all <- rbind(class_size, age_father, age_mother, public_private, teacher_morale)
 colour <- "OECD_member"
-plot_pairs(all, c("all_Mean","reading_Mean","math_Mean","science_Mean","OECD_member"), colour)
+
+pdf(file="~/Projects/Homepage/content/PISA/performance_correlation.pdf", width=7, height=7, useDingbats=F)
+plot_pairs(all, c("reading_Mean","math_Mean","science_Mean","OECD_member"), colour)
+dev.off()
+
 
 ###########################
 # A: Yes they are highly correlated -> Average reading, math and science. 
-# OECD member states have a higher average performance in all topics. TO-DO: Test for significance: Kolmogorov-Smirnov
+# We can use a mean performance measure as a good proxy. 
 ###########################
 summarize_subjects  <- function(df) {
   df$mean_Mean <- apply(df, MARGIN=1, FUN=function(x) {
@@ -71,9 +75,18 @@ age_mother <- summarize_subjects(age_mother)
 public_private <- summarize_subjects(public_private)
 teacher_morale <- summarize_subjects(teacher_morale)
 
-quartz()
-all <- rbind(class_size, age_father, age_mother, public_private, teacher_morale)
-plot_pairs(all, c("all_Mean","reading_Mean","math_Mean","science_Mean","OECD_member","mean_Mean"), "OECD_member")
+##########################
+# Q: Do OECD member states perform better than non-member states? 
+##########################
+all_oecd <- all[all$OECD_member == TRUE,]
+all_non_oecd <- all[all$OECD_member == FALSE,]
+ks.test(all_oecd$science_Mean, all_non_oecd$science_Mean)
+ks.test(all_oecd$math_Mean, all_non_oecd$math_Mean)
+ks.test(all_oecd$reading_Mean, all_non_oecd$reading_Mean)
+
+###########################
+# A: OECD member state perform significantly better. Smells like confounding variable e.g. GDP 
+###########################
 
 ##########################
 # Q: How does class room size correlate with performance. OECD member vs. non-member. 
@@ -83,31 +96,48 @@ plot_predictor_response <- function(df) {
   p  <- p + geom_point()
   return(p)
 }
-plot_pairs(class_size, c("all_Mean","reading_Mean","math_Mean","science_Mean","OECD_member","mean_Mean"), "Category")
+
+pdf(file="~/Projects/Homepage/content/PISA/class_size.pdf", width=7, height=7, useDingbats=F)
+plot_pairs(class_size, c("OECD_member","mean_Mean"), "Category")
+dev.off()
 #plot_predictor_response(class_size)
 ##########################
 # A: Affect of class-room size is more pronounced for OECD member states. Optimal class-room size is surprisingly large (31-35 ). 
-#     No obvious difference for math, science, reading. Flatter profiles for non-OECD member states. 
 ##########################
 
 
 ##########################
 # Q: How does parental age correlate with performance. OECD member vs. non-member. 
 ##########################
-plot_pairs(age_mother, c("all_Mean","reading_Mean","math_Mean","science_Mean","OECD_member"), "Category")
-plot_pairs(age_father, c("all_Mean","reading_Mean","math_Mean","science_Mean","OECD_member"), "Category")
-##########################
-# Optimal age mother 51 and older (non_OECD) and 46 – 50 years (OECD). Optimal age father 51 and older (non_OECD) and 46 – 50 years (OECD). 
-# Similar profile for reading, math and science. 
-##########################
+pdf(file="~/Projects/Homepage/content/PISA/age_mother.pdf", width=7, height=7, useDingbats=F)
+plot_pairs(age_mother, c("OECD_member","mean_Mean"), "Category")
+dev.off() 
 
+pdf(file="~/Projects/Homepage/content/PISA/age_father.pdf", width=7, height=7, useDingbats=F)
+plot_pairs(age_father, c("OECD_member","mean_Mean"), "Category")
+dev.off() 
+##########################
+# Optimal age for parents is > 46 which means ~30 when they become parents (PISA measure 15 year old kids)
+##########################
 
 ##########################
 # Q: How does teacher morale correlate with performance. OECD member vs. non-member. 
 ##########################
-plot_pairs(teacher_morale, c("all_Mean","reading_Mean","math_Mean","science_Mean","OECD_member"), "Category")
+pdf(file="~/Projects/Homepage/content/PISA/teacher_motivation.pdf", width=7, height=7, useDingbats=F)
+plot_pairs(teacher_morale, c("OECD_member","mean_Mean"), "Category")
+dev.off()
 ##########################
 # Performance decreases monotonically with decreasing teacher morale. 
+##########################
+
+##########################
+# Q: Private vs. public school 
+##########################
+pdf(file="~/Projects/Homepage/content/PISA/private_public.pdf", width=7, height=7, useDingbats=F)
+plot_pairs(public_private, c("OECD_member","mean_Mean"), "Category")
+dev.off()
+##########################
+# Private outperforms public. 
 ##########################
 
 
