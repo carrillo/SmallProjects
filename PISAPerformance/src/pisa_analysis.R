@@ -43,7 +43,7 @@ plot_pairs <- function(df, columnNames, colour) {
           lower=list(continuous='points'), 
           #upper=list(params=c(size = 3)),
           upper=list(continuous='blank'), 
-          axisLabels="none", 
+          axisLabels="show", 
           params=c(size=0.5)
   )
 }
