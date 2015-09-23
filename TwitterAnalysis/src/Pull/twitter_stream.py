@@ -6,13 +6,14 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import sys
 import getopt
+from Twitter_auth import Twitter_auth
 
 
 # Variables that contains the user credentials to access Twitter API 
-access_token = "61738905-dlt5UVevRhpXxaM4fghrarLFxVgUGkU38oiG6NTZo"
-access_token_secret = "uDPDqUPOHEiVTl2Hzp60zBdbShidkeb7Qalv8B5MztOu0"
-consumer_key = "u2eWoIroKfwmpiWfp2zyuJxKt"
-consumer_secret = "7dhEWLsFv6kYdKdkoG5pfQ7IZBtxcnEZyPMXLGaGedudWntn9B"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 #
 class STdOutListener(StreamListener):
@@ -35,11 +36,22 @@ if __name__ == '__main__':
 	
 	# This handles Twitter authentification and the connection to Twitter Streaming API 
 	l = STdOutListener()
+
+
+	# Read credentials from file: 
+	auth_params = {} 
+	with open("data/twitter_credentials.csv", 'rU') as data:
+			for line in data:
+				entry = line.split(',')
+				auth_params[entry[0]] = entry[1]
+
+	
 	auth = OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_token_secret)
+	
 	stream = Stream(auth, l)
 
-	# This line filters Twitter streams to capture data by the keywords: 'python', 'javascript', 'ruby'
+	# This line filters Twitter streams to track keywords. 
 	try:
 		stream.filter(track=keywords)
 	except Exception, e:
