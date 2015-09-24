@@ -5,26 +5,17 @@ class Twitter_auth(object):
 	"""
 	Performs twitter connection with given credentials. 
 	"""
-	def __init__(self, credential_file):
-		self.auth_params = {}
-		with open(credential_file, 'rU') as data:
-			for line in data:
-				entry = line.split(',')
-				self.auth_params[entry[0]] = entry[1]
+	def __init__(self):
+		self.access_token = "61738905-dlt5UVevRhpXxaM4fghrarLFxVgUGkU38oiG6NTZo"
+		self.access_token_secret = "uDPDqUPOHEiVTl2Hzp60zBdbShidkeb7Qalv8B5MztOu0"
+		self.consumer_key = "u2eWoIroKfwmpiWfp2zyuJxKt"
+		self.consumer_secret = "7dhEWLsFv6kYdKdkoG5pfQ7IZBtxcnEZyPMXLGaGedudWntn9B"
 
 	def authenticate(self): 
 		"""
 		Set up the connection
 		"""
-		self.auth = OAuthHandler(self.auth_params["consumer_key"], self.auth_params["consumer_secret"])
-		self.auth.set_access_token(self.auth_params["access_token"], self.auth_params["access_token_secret"])
-
-	def get_auth(self): 
-		return self.auth
-				
-		
-if __name__ == '__main__':
-	auth = Twitter_auth("data/twitter_credentials.csv")
-	auth.authenticate()
-
+		auth = OAuthHandler(self.consumer_key, self.consumer_secret)
+		auth.set_access_token(self.access_token, self.access_token_secret)
+		return(auth)
 
