@@ -17,7 +17,7 @@ class Network_search(object):
 	"""
 	Performs a search around a given starting username of depth n. 
 	"""
-	def __init__(self, user_object, db_session, depth=1): 
+	def __init__(self, user_object, db_session, max_depth=1): 
 		"""
 		@param user_object Subclass of User_base class
 		@param db_session database connection 
@@ -28,8 +28,8 @@ class Network_search(object):
 		self.db_session = db_session
 		self.cur_depth = 0
 		self.add_user(self.root_node)
-		self.cur_depth += 1 
-		self.max_depth = depth
+		#self.cur_depth += 1 
+		self.max_depth = max_depth
 		
 			
 	def add_user(self, user_name): 
@@ -108,7 +108,10 @@ class Network_search(object):
 		2. Get nodes and add to users and connection tables. 
 		3. Get location and add to location table. 
 		"""
-		for user in self.get_users_of_current_depth(): # Iterate through all users of the current depth. 
+
+		users = self.get_users_of_current_depth()
+		self.cur_depth += 1
+		for user in users: # Iterate through all users of the current depth. 
 			if not user.visited:
 				u1 = user.name
 				print(u1)
@@ -117,14 +120,18 @@ class Network_search(object):
 				self.user_object.load(message_count)
 				if (dump): self.user_object.dump('data/' + u1 + '.json')
 
-				for text in self.user_object.get_messages(): 
+				messages = self.user_object.get_messages()
+				for text in messages: 
 					self.add_message(u1, text)
 
 				nodes = self.user_object.get_nodes()
+				user_count = 1
 				for name, weight in nodes.iteritems(): 
-					u2 = name.strip('\@')
-					self.add_user(user_name=u2)
-					self.add_connection(user_name1=u1, user_name2=u2, weight=weight)
+					if (user_count <= fraction_connections * message_count): 
+						u2 = name.strip('\@')
+						self.add_user(user_name=u2)
+						self.add_connection(user_name1=u1, user_name2=u2, weight=weight)
+						user_count += 1 
 
 				locations = self.user_object.get_locations()
 				for i in locations.index: 
@@ -133,6 +140,13 @@ class Network_search(object):
 					self.add_location(user_name=u1, geojson=g, location=l)
 
 				self.set_user_visited(user_name=u1)
+
+	def run(self, message_count=100, dump=True, fraction_connections=0.2): 
+		"""
+		Run the network search. 
+		"""
+		while (self.cur_depth <= self.max_depth): 
+			self.search_current_depth(message_count=message_count, dump=dump, fraction_connections=fraction_connections)
 		
 if __name__ == '__main__':
 
@@ -146,8 +160,8 @@ if __name__ == '__main__':
 	user = Twitter_user('fcarrillo81', Twitter_auth().authenticate())
 	#user = Twitter_user('ScienceIsArt', Twitter_auth().authenticate())
 	#user.load()
-	search = Network_search(user_object=user, db_session=session)
-	search.search_current_depth()
+	search = Network_search(user_object=user, db_session=session, max_depth=2)
+	search.run(message_count=100, dump=False, fraction_connections=0.2)
 	
 
 	# user = Twitter_user("test", Twitter_auth().authenticate())
