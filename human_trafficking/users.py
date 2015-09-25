@@ -143,4 +143,13 @@ class Twitter_user(User_base):
 
 	def get_geo(self): 
 		return(self.get_field_values("geo"))
-	
+
+if __name__ == '__main__':
+	user = Twitter_user('fcarrillo81', Twitter_auth().authenticate())
+	user.load()
+	loc = user.get_locations()
+	for i in loc.index: 
+		g = str(loc['geojson'][i])
+		l = str(loc['location'][i])
+		if (g == "nan"): print("match")
+		print('%s\t%s' % (g, l))

@@ -82,11 +82,8 @@ class Network_search(object):
 		"""
 		Add message to LOCATION relationship. 
 		"""
-		print(str(geojson))
-		print(str(location))
-		
-		if (geojson == np.nan): geojson = "NULL"
-		if (location == np.nan): location = "NULL"
+		if (geojson == "nan"): geojson = "NULL"
+		if (location == "nan"): location = "NULL"
 		new_location = Location(user_name=user_name, geojson=geojson, location=location)
 		self.db_session.add(new_location)
 		self.db_session.commit()
@@ -113,12 +110,10 @@ class Network_search(object):
 			self.add_connection(user_name1=u1, user_name2=u2, weight=weight)
 
 		locations = self.user_object.get_locations()
-		print(locations)
-		for geojson, location in locations.iteritems(): 
-			print(geojson)
-			print(location)
-
-			#self.add_location(user_name=u1, geojson=row[0], location=row[1])
+		for i in locations.index: 
+			g = str(locations['geojson'][i])
+			l = str(locations['location'][i])
+			self.add_location(user_name=u1, geojson=g, location=l)
 
 		self.set_user_visited(user_name=u1)
 		
