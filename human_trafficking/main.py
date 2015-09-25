@@ -53,7 +53,16 @@ class Network_search(object):
 			return 
 
 	def get_user(self, user_name): 
+		"""
+		Returns the user with the specified user_name
+		"""
 		return(self.db_session.query(User).filter(User.name == user_name).one())
+
+	def get_users_of_current_depth(self):
+		"""
+		Returns all the users of all users of the current depth. 
+		"""
+		return(self.db_session.query(User).filter(User.depth == self.cur_depth).all())
 		
 	def set_user_visited(self, user_name): 
 		"""
@@ -88,34 +97,42 @@ class Network_search(object):
 		self.db_session.add(new_location)
 		self.db_session.commit()
 
-	def run(self, message_count=100, dump=True): 
+	def search_current_depth(self, message_count=100, dump=True, fraction_connections=1.0): 
 		"""
+		@param: message_count Number of messages to retrieve
+		@param: dump Dump user object to file (either pickled or JSON (twitter) )
+		@param: fraction_connections Fraction of connection to follow. If connections are weighted, take the top 
+					fraction of connections. 
+
 		1. Download and dump messages
 		2. Get nodes and add to users and connection tables. 
 		3. Get location and add to location table. 
 		"""
-		u1 = self.get_next_user()
-		setattr(self.user_object, 'user_name', u1)
-		#user = Twitter_user(u1, Twitter_auth().authenticate())
-		self.user_object.load(message_count)
-		if (dump): self.user_object.dump('data/' + u1 + '.json')
+		for user in self.get_users_of_current_depth(): # Iterate through all users of the current depth. 
+			if not user.visited:
+				u1 = user.name
+				print(u1)
+				setattr(self.user_object, 'user_name', u1)
+				#user = Twitter_user(u1, Twitter_auth().authenticate())
+				self.user_object.load(message_count)
+				if (dump): self.user_object.dump('data/' + u1 + '.json')
 
-		for text in self.user_object.get_messages(): 
-			self.add_message(u1, text)
+				for text in self.user_object.get_messages(): 
+					self.add_message(u1, text)
 
-		nodes = self.user_object.get_nodes()
-		for name, weight in nodes.iteritems(): 
-			u2 = name.strip('\@')
-			self.add_user(user_name=u2)
-			self.add_connection(user_name1=u1, user_name2=u2, weight=weight)
+				nodes = self.user_object.get_nodes()
+				for name, weight in nodes.iteritems(): 
+					u2 = name.strip('\@')
+					self.add_user(user_name=u2)
+					self.add_connection(user_name1=u1, user_name2=u2, weight=weight)
 
-		locations = self.user_object.get_locations()
-		for i in locations.index: 
-			g = str(locations['geojson'][i])
-			l = str(locations['location'][i])
-			self.add_location(user_name=u1, geojson=g, location=l)
+				locations = self.user_object.get_locations()
+				for i in locations.index: 
+					g = str(locations['geojson'][i])
+					l = (locations['location'][i])
+					self.add_location(user_name=u1, geojson=g, location=l)
 
-		self.set_user_visited(user_name=u1)
+				self.set_user_visited(user_name=u1)
 		
 if __name__ == '__main__':
 
@@ -127,8 +144,11 @@ if __name__ == '__main__':
 
 	# Add root node user. 
 	user = Twitter_user('fcarrillo81', Twitter_auth().authenticate())
+	#user = Twitter_user('ScienceIsArt', Twitter_auth().authenticate())
+	#user.load()
 	search = Network_search(user_object=user, db_session=session)
-	search.run()
+	search.search_current_depth()
+	
 
 	# user = Twitter_user("test", Twitter_auth().authenticate())
 	# user.load(100)

@@ -64,7 +64,10 @@ class Twitter_user(User_base):
 
 	def load(self, tweet_count=100):
 		self.api = tweepy.API(self.auth)
-		t = self.api.user_timeline(screen_name = self.user_name, count = tweet_count)
+		try:
+			t = self.api.user_timeline(screen_name = self.user_name, count = tweet_count)
+		except Exception, e:
+			t = [] 
 		
 		tweets = [] 
 		for tweet in t: 
