@@ -14,7 +14,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import exists
 
-from db_tables import Base, User, Connection, Message, Location
+from db_tables import Base, User, Connection, Message, Location, create_sqlite_db
 
 class Network_search(object):
 	"""
@@ -153,13 +153,17 @@ class Network_search(object):
 		
 if __name__ == '__main__':
 
+	# Select source node user name. 
+	source_node_name = 'fcarrillo81'
+
 	# Set up the database connection
-	engine = create_engine('sqlite:///data/twitter_search.db')
+	create_sqlite_db(source_node_name)
+	engine = create_engine('sqlite:///data/' + source_node_name + '.db')
 	Base.metadata.bind = engine 
 	DBSession = sessionmaker(bind=engine)
 	session = DBSession()
 
 	# Add root node user. 
-	user = Twitter_user('fcarrillo81', Twitter_auth().authenticate())
-	search = Network_search(user_object=user, db_session=session, max_depth=2)
-	search.run(message_count=1000, dump=False, fraction_connections=0.02) # Get the top 2% connection of the last 1000 messages. 
+	user = Twitter_user(source_node_name, Twitter_auth().authenticate())
+	search = Network_search(user_object=user, db_session=session, max_depth=1)
+	search.run(message_count=1000, dump=True, fraction_connections=0.02) # Get the top 2% connection of the last 1000 messages. 

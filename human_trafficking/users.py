@@ -1,5 +1,5 @@
 __author__ = "Fernando Carrillo"
-__email__ = "fernando@carrillo.at"
+__email__ = "fernando at carrillo.at"
 
 import tweepy 
 import json 
