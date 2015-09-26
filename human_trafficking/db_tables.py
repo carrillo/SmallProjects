@@ -1,3 +1,6 @@
+__author__ = "Fernando Carrillo"
+__email__ = "fernando at carrillo.at"
+
 import os 
 import sys
 from sqlalchemy import Column, ForeignKey, Boolean, String, Integer, Text

@@ -1,3 +1,6 @@
+__author__ = "Fernando Carrillo"
+__email__ = "fernando at carrillo.at"
+
 import pandas as pd
 import numpy as np 
 
@@ -158,21 +161,5 @@ if __name__ == '__main__':
 
 	# Add root node user. 
 	user = Twitter_user('fcarrillo81', Twitter_auth().authenticate())
-	#user = Twitter_user('ScienceIsArt', Twitter_auth().authenticate())
-	#user.load()
 	search = Network_search(user_object=user, db_session=session, max_depth=2)
-	search.run(message_count=100, dump=False, fraction_connections=0.2)
-	
-
-	# user = Twitter_user("test", Twitter_auth().authenticate())
-	# user.load(100)
-	# user.dump("data/test.json")
-
-	# nodes = user.get_nodes()
-	# print(nodes)
-
-	# locations = user.get_locations()
-	# print(locations)
-
-	# messages = user.get_messages()
-	# print(messages)
+	search.run(message_count=1000, dump=False, fraction_connections=0.02) # Get the top 2% connection of the last 1000 messages. 

@@ -1,3 +1,6 @@
+__author__ = "Fernando Carrillo"
+__email__ = "fernando@carrillo.at"
+
 import tweepy 
 import json 
 import abc 
