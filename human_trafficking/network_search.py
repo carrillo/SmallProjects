@@ -154,7 +154,7 @@ class Network_search(object):
 if __name__ == '__main__':
 
 	# Select source node user name. 
-	source_node_name = 'fcarrillo81'
+	source_node_name = 'testuser'
 
 	# Set up the database connection
 	create_sqlite_db(source_node_name)
