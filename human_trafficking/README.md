@@ -8,7 +8,7 @@ This set of scripts is thought to facilitate information gathering from social m
   
   At the moment this is only implemented for twitter. 
   
-  How-to use network_search.py
+  How to use network_search.py
   1. Make sure to have all dependencies installed, including sqlite
   2. Make a data folder (this will contain the sqlite database file) 
   3. Specify your twitter api login credentials in twitter_auth.py. If you don't have credentials you can easily create them as   described for example here: https://goo.gl/SXIslG
