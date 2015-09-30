@@ -1,7 +1,6 @@
 import pandas as pd 
 import numpy as np 
-import cPickle as pickle 
-import gzip 
+import re
 from matplotlib import pyplot as plt
 
 
@@ -11,19 +10,19 @@ from sklearn.grid_search import GridSearchCV
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import SGDClassifier
 from sklearn.externals import joblib
 from sklearn import metrics
 ###########################
 # Train a text classifier. 
 ###########################
-
-class TweetClassifier(object):
-	"""docstring for TweetClassifier"""
+class MessageClassifier(object):
+	"""docstring for MessageClassifier"""
 	def __init__(self):
 		self.clf = None
 
 	def train(self, train_X, train_y, labels,
-		pipeline=Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('nb', MultinomialNB())]), 
+		pipeline=Pipeline([('vect', CountVectorizer(encoding='utf-8', decode_error='strict')), ('tfidf', TfidfTransformer()), ('nb', MultinomialNB())]), 
 		param_grid={'vect__ngram_range': [(1, 2)], 'nb__alpha': [10**-4,10**-3,10**-2]}
 		): 
 		"""
@@ -47,7 +46,7 @@ class TweetClassifier(object):
         param_grid = dictionary 
         	Metaparameters to grid search. 
 		"""
-		grid_search = GridSearchCV(estimator=pipeline, param_grid=param_grid, verbose=3, cv=5).fit(train_X, train_y)
+		grid_search = GridSearchCV(estimator=pipeline, param_grid=param_grid, verbose=3, cv=5, n_jobs=-1).fit(train_X, train_y)
 		print( ('Best score %s of estimator %s') % (grid_search.best_score_, grid_search.best_estimator_))
 		self.clf = grid_search.best_estimator_
 		self.clf.fit(train_X, train_y)
@@ -130,18 +129,23 @@ if __name__ == '__main__':
 	twenty_train = fetch_20newsgroups(subset='train', shuffle=True, random_state=32)
 	twenty_test = fetch_20newsgroups(subset='test', shuffle=True, random_state=32)
 
-	tc = TweetClassifier()
-	tc.load('data/tweet_clf')
-	#tc.train(train_X=twenty_train.data, train_y=twenty_train.target, labels=twenty_train.target_names, param_grid={'vect__ngram_range': [(1, 2)], 'nb__alpha': [10**-2]})
-	#tc.dump('data/tweet_clf')
+	tc = MessageClassifier()
+	#pipeline=Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('nb', MultinomialNB())])
+	#param_grid={'vect__ngram_range': [(1, 2)], 'nb__alpha': [10**-3]}
+
+	# pipeline=Pipeline([('vect', CountVectorizer()), ('tfidf', TfidfTransformer()), ('svm', SGDClassifier(loss='modified_huber', penalty='l2', n_iter=5, random_state=32))])
+	# param_grid={'vect__ngram_range': [(1, 2)], 'svm__alpha': [10**-8, 10**-6, 10**-4, 10**-2]}
+	# tc.train(train_X=twenty_train.data, train_y=twenty_train.target, labels=twenty_train.target_names, pipeline=pipeline, param_grid=param_grid)
+
+	#tc.dump('data/tweet_clf_svm')
+	tc.load('data/tweet_clf_svm')
+
 	tc.test(valid_X=twenty_test.data, valid_y=twenty_test.target)
 
 	tc.time_prediction(iterations=10)
-	tc.top_keywords(n=10)
+	#tc.top_keywords(n=10)
 
-	docs_new = ['God is love', 'OpenGL on the GPU is fast', 'What is this sentence about?']
+	docs_new = ['God is love', 'OpenGL on the GPU is fast', 'What is this sentence about?', 'RT neuroph: Cool Neuroph neural network visualization using Gephi contributed by Fernando Carrillo http://t.co/MG8LPxzFNr', 'Eloquent commit message: "(\u256f\u2035\u25a1\u2032)\u256f\ufe35\u253b\u2501\u253b" (perfect, too: important information that cannot be deduced from the diff...) https://t.co/w6SosMdTrA']
 	predicted = tc.predict_proba(docs_new)
 	for doc, probs in zip(docs_new, predicted):
 		print('%r => %s' % (doc, twenty_train.target_names[np.argmax(probs)]))
-	
-
