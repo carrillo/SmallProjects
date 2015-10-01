@@ -165,5 +165,5 @@ if __name__ == '__main__':
 
 	# Add root node user. 
 	user = Twitter_user(source_node_name, Twitter_auth().authenticate())
-	search = Network_search(user_object=user, db_session=session, max_depth=1)
-	search.run(message_count=1000, dump=True, fraction_connections=0.02) # Get the top 2% connection of the last 1000 messages. 
+	search = Network_search(user_object=user, db_session=session, max_depth=3)
+	search.run(message_count=1000, dump=False, fraction_connections=0.02) # Get the top 2% connection of the last 1000 messages. 
